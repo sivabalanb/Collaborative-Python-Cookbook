@@ -1,4 +1,4 @@
-# Python Cookbook
+# Leetcode Python Cookbook
 
 This repository contains a collection of Python recipes and commands that can be useful for problem-solving.
 
