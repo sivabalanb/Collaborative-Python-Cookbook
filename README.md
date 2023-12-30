@@ -55,22 +55,21 @@ This repository contains a collection of Python recipes and commands that can be
     ```
 
 ## Data Structures and Algorithms
-1. **Unpacking a Sequence into Separate Variables:**
-
+1. **Set:**
+    
     ```python
-    values = (1, 2, 3)
-    a, b, c = values # Output: 1 2 3
+    # https://leetcode.com/problems/contains-duplicate/
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        return len(set(nums)) != len(nums)
     ```
 
-2. **Unpacking Elements from Iterables of Arbitrary Length:**
+2. **Counter:**
 
     ```python
-    def unpack_elements(iterable):
-        first, *rest = iterable
-        return first, rest
-    
-    result = unpack_elements([1, 2, 3, 4, 5])
-    print(result)  # Output: (1, [2, 3, 4, 5])
+    # https://leetcode.com/problems/valid-anagram/
+    def isAnagram(self, s: str, t: str) -> bool:
+        from collections import Counter
+        return Counter(s) == Counter(t)
     ```
 
 3. **Keeping the Last N Items:**
