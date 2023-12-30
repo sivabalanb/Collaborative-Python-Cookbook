@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to Python Cookbook! Follow these guidelines to contribute:
 
-1. Clone the repository: `git clone https://github.com/sivabalanb/Collaborative-Python-Cookbook.git`
+1. Clone the repository: `git clone https://github.com/sivabalanb/LeetCode-Python-Cookbook.git`
 2. Create a new branch for your feature: `git checkout -b feature-name`.
 3. Add your Python command or recipe.
 4. Commit your changes: `git commit -m "Add feature-name"`.
