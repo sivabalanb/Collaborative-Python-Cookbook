@@ -70,6 +70,12 @@ This repository contains a collection of Python recipes and commands that can be
     def isAnagram(self, s: str, t: str) -> bool:
         from collections import Counter
         return Counter(s) == Counter(t)
+
+    # https://leetcode.com/problems/top-k-frequent-elements/
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        from collections import Counter
+        counts = Counter(nums).most_common(k)
+        return list(map(itemgetter(0), counts))
     ```
 
 3. **Keeping the Last N Items:**
